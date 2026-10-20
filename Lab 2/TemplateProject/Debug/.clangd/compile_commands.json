@@ -1,0 +1,37 @@
+[
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/main.c"
+   },
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/src/engr2350_analog.c"
+   },
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/src/engr2350_gpio.c"
+   },
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/src/engr2350_i2c.c"
+   },
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/src/engr2350_mspm0.c"
+   },
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/src/engr2350_timers.c"
+   },
+   {
+      "directory" : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/Debug",
+      "command"   : "clang++ -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/inc\" -I\"C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c++/v1\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/lib/clang/18/include\" -isystem\"C:/ti/ti_cgt_arm_llvm_4.0.2.LTS/include/c\" -xc",
+      "file"      : "C:/Users/Finnian Reilly/Desktop/Emb Con Code/Lab 2/TemplateProject/src/startup_mspm0g350x_ticlang.c"
+   }
+]

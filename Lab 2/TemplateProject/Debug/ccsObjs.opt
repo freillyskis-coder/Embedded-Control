@@ -1,0 +1,10 @@
+"./main.o"
+"./src/engr2350_analog.o"
+"./src/engr2350_gpio.o"
+"./src/engr2350_i2c.o"
+"./src/engr2350_mspm0.o"
+"./src/engr2350_timers.o"
+"./src/startup_mspm0g350x_ticlang.o"
+"../src/mspm0g3507.cmd"
+-l"C:/ti/mspm0_sdk_2_11_00_07/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a"
+-llibc.a
