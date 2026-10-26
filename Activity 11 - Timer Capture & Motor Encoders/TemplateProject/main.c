@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////
 //** ENGR-2350 Template Project 
-//** NAME: XXXX
-//** RIN: XXXX
+//** NAME: Finnian Reilly
+//** RIN: 662123514
 //** TEMPLATE VERSION: v.99 (2026-01-05)
 //** This is the base project for several activities and labs throughout
 //** the course.  The outline provided below isn't necessarily *required*
