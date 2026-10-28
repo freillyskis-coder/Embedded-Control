@@ -101,8 +101,8 @@ void gpioInit(){
     
     GPIO_initDigitalOutput(GPIOB, GPIO_PIN0 | GPIO_PIN8 | GPIO_PIN15 | GPIO_PIN16);
     GPIO_initDigitalOutput(GPIOB, GPIO_PIN6 | GPIO_PIN7); // PWM
-    GPIO_initPeripheralFunction(GPIOB, GPIO_PIN6 | GPIO_PIN7, 5); //CCR 0 and 1 for TIMG84
-
+    GPIO_initPeripheralFunction(GPIOB, GPIO_PIN6 | GPIO_PIN7, 5); //CCR 0 and 1 for TIMG8
+    
     GPIO_setPins(GPIOB, GPIO_PIN15 | GPIO_PIN16); // enables motors
     GPIO_clearPins(GPIOB, GPIO_PIN0 | GPIO_PIN8); // sets DIR to forward (low)
 }
@@ -113,16 +113,24 @@ void timerInit(){
     tim.clkdivratio = TIMER_CLOCK_DIVIDE_1;
     tim.clksrc = TIMER_CLOCK_BUSCLK;
     tim.clkprescale = 0;
-    tim.period = 800;
+    tim.period = 799;
     Timers_initTimer(TIMG8, &tim);
     
-    Timers_CompareConfig config;
-    config.ccrn = TIMER_CCR_CCR0 | TIMER_CCR_CCR1;
+    Timers_CompareConfig leftPWM;
+    config.ccrn = TIMER_CCR_CCR1;
     config.action = TIMER_CCR_ACTION_ZERO_SET | TIMER_CCR_ACTION_UPCOMPARE_CLEAR;
-    config.value = 80;
+    config.value = 200; //initial value
     config.invertOutput = 0;
-    Timers_initCompare(TIMG8, &config);
-
+    Timers_initCompare(TIMG8, &leftPWM);
+    
+    Timers_CompareConfig rightPWM;
+    config.ccrn = TIMER_CCR_CCR0;
+    config.action = TIMER_CCR_ACTION_ZERO_SET | TIMER_CCR_ACTION_UPCOMPARE_CLEAR;
+    config.value = 200; //initial value
+    config.invertOutput = 0;
+    Timers_initCompare(TIMG8, &leftPWM);
+    
     Timers_startTimer(TIMG8);
+    
 }
 // Add interrupt functions last so they are easy to find
