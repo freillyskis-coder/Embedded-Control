@@ -41,7 +41,7 @@ int main() {      /// Main Function ///
     
     while(1) {  
         // Place code that runs continuously in here
-        printf("h");
+        
     }   
 }      /// End Main Function ///  
 
@@ -134,7 +134,6 @@ void timerInit() {
 
 void TIMG0_IRQHandler(){
     uint32_t interrupt = Timers_getPendingInterrupts(TIMG0);
-    printf("car");
     GPIO_togglePins(GPIOB, GPIO_PIN22);
     if(interrupt & TIMER_INTSRC_LOAD){
         Timers_clearInterrupt(TIMG0, TIMER_INTSRC_LOAD);
@@ -143,8 +142,6 @@ void TIMG0_IRQHandler(){
     if(interrupt & TIMER_INTSRC_CCR0_UP){
         Timers_clearInterrupt(TIMG0, TIMER_INTSRC_CCR0_UP);
         uint16_t ccrVal = Timers_getCCRValue(TIMG0, TIMER_CCR_CCR0);
-        
-        printf("%u \n",ccrVal);
     }
 }
 
